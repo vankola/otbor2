@@ -1,0 +1,20 @@
+{
+  "name": "noodpr3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node app.js",
+    "dev": "nodemon app.js",
+    "dbm": "node mdb.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "pg": "^8.10.0"
+  }
+}
